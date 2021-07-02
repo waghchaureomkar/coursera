@@ -1,0 +1,15 @@
+cd Desktop\python\AccessWebData
+
+tags = soup('count')
+sum = None
+count = 0
+for tag in tags:
+    x = tag.contents[0]
+    y =  int(x)
+    count = count + 1
+    if sum == None:
+        sum = y
+        continue
+    sum = sum + y
+print (count)
+print (sum)

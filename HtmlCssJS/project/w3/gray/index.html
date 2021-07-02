@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title> make a Grayscale</title>
+        <script src="grayscale.js"></script>
+        <link rel="stylesheet" href="grayscale.css">
+        <script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+    </head> 
+    <body>  
+      <h1 class="mainStyle">Make A Grayscale Image</h1>
+  
+    <canvas id="c1" class="canStyle"></canvas>
+    <canvas id="c2" class="canStyle"></canvas>
+  
+
+    <label for="fileInput" class="menuTxtBox">Filename: 
+    <span id="imgLabel" ></span></label>
+    <input type="file" id="fileInput" multiple="false" accept="image/*" class="couretteFont  menuTxtBox" onchange="upload()">
+  
+    <input type="button" value="Make Grayscale" id="grayscaleBtn" class="novaCutFont menuTxtBox" onclick="makeGray()">
+  </body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    color: #ffff99;
+    background: darkolivegreen;
+    margin: 15px;
+  }
+.mainStyle {
+    color: darkolivegreen;
+    font-size: 50pt;
+    text-align: center;
+  
+    background: #2e2d88;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      color-stop(0%, #ff007c),
+      color-stop(15%, #0066ff),
+      color-stop(30%, #ffff99),
+      color-stop(50%, #ffff99),
+      color-stop(70%, #0066ff),
+      color-stop(85%, #ff007c)
+    );
+    
+    background: linear-gradient(
+      to right,
+      #ff007c,
+      #0066ff,
+      #ffff99,
+      #ffff99,
+      #0066ff,
+      #ff007c
+    );
+}
+input {
+    cursor: pointer;
+  }
+
+canvas {
+    width: 100%;
+}
+.canStyle {
+    /* Specify only the width, or height, not both */
+    /* otherwise, it stretches the canvas */
+    width: 49%;
+    border-style: ridge;
+    border-width: 4pt;
+    /* Crayola Crayons - Coconut */
+    border-color: #fefefe;
+}

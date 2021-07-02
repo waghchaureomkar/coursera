@@ -1,0 +1,53 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Python for Everybody : University of Michigan
+
+Name:                                         Python for Everybody Specialization
+Issuing Organization:            Coursera
+Issue Date:                                April 2021
+Expiration Date:                      This certification does not expire
+Credential ID:                           34A64STHVBKA
+Credential URL:                       https://www.coursera.org/account/accomplishments/specialization/certificate/34A64STHVBKA
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+1
+Name:                                           Programming for Everybody (Getting Started with Python)
+Issuing Organization:              Coursera
+Issue Date:                                  May 2020
+Expiration Date:                        This certification does not expire
+Credential ID:                             3LFNWZ6USJDE
+Credential URL:                         https://www.coursera.org/account/accomplishments/certificate/3LFNWZ6USJDE
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+2
+Name:                                           Python Data Structures
+Issuing Organization:              Coursera
+Issue Date:                                  June 2020
+Expiration Date:                        This certification does not expire
+Credential ID:                             QW2XGCHV9UYH
+Credential URL:                          https://www.coursera.org/account/accomplishments/certificate/QW2XGCHV9UYH
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+3
+Name:                                            Using Python to Access Web Data
+Issuing Organization:               Coursera
+Issue Date:                                   June 2020
+Expiration Date:                         This certification does not expire
+Credential ID:                              YCQA6HA2U5UW
+Credential URL:                           https://www.coursera.org/account/accomplishments/certificate/YCQA6HA2U5UW
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+4
+Name:                                            Using Databases with Python
+Issuing Organization:               Coursera
+Issue Date:                                   July 2020
+Expiration Date:                         This certification does not expire
+Credential ID:                              4VEDNSTBLYNF
+Credential URL:                           https://www.coursera.org/account/accomplishments/certificate/4VEDNSTBLYNF
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+5
+Name:                                            Capstone: Retrieving, Processing, and Visualizing Data with Python
+Issuing Organization:               Coursera
+Issue Date:                                   August 2020
+Expiration Date:                         This certification does not expires
+Credential ID:                              KM92F22X4CQP
+Credential URL:                           https://www.coursera.org/account/accomplishments/certificate/KM92F22X4CQP
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

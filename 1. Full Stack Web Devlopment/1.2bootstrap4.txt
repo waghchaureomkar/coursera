@@ -1,0 +1,276 @@
+Microsoft Windows [Version 10.0.18363.1082]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Dhaval>cd C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>npm install
+npm WARN registry Using stale data from https://registry.npmjs.org/ because the host is inaccessible -- are you offline?
+npm WARN registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN confusion@1.0.0 No repository field.
+
+added 223 packages from 209 contributors in 74.727s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>git init
+Initialized empty Git repository in C:/Users/Dhaval/Desktop/coursera/C1 boostrap/Bootstrap4/conFusion/.git/
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        .gitignore
+        index.html
+        package-lock.json
+        package.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>git add .
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>git commit -m "initial setup"
+[master (root-commit) 370108a] initial setup
+ 5 files changed, 2029 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 .gitignore
+ create mode 100644 index.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>npm install bootstrap@4.0.0 --save
+npm WARN bootstrap@4.0.0 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.0.0 requires a peer of popper.js@^1.12.9 but none is installed. You must install peer dependencies yourself.
+npm WARN confusion@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@4.0.0
+added 1 package from 2 contributors and audited 225 packages in 6.751s
+
+4 packages are looking for funding
+  run `npm fund` for details
+
+found 2 vulnerabilities (1 low, 1 moderate)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>npm audit fix
+npm WARN bootstrap@4.5.2 requires a peer of jquery@1.9.1 - 3 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@4.5.2 requires a peer of popper.js@^1.16.1 but none is installed. You must install peer dependencies yourself.
+npm WARN confusion@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@4.5.2
+updated 1 package in 4.581s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+fixed 1 of 2 vulnerabilities in 225 scanned packages
+  1 vulnerability required manual review and could not be updated
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>npm fund
+confusion@1.0.0
++-- https://opencollective.com/bootstrap
+| `-- bootstrap@4.5.2
++-- https://github.com/sponsors/jonschlinkert
+| `-- picomatch@2.2.2
++-- https://github.com/sponsors/RubenVerborgh
+| `-- follow-redirects@1.13.0
++-- https://github.com/sponsors/sindresorhus
+| `-- p-limit@2.3.0
+`-- https://github.com/chalk/ansi-styles?sponsor=1
+  `-- ansi-styles@4.2.1
+
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>npm install jquery@3.3.1 popper.js@1.12.9 --save
+npm WARN deprecated popper.js@1.12.9: You can find the new Popper v2 at @popperjs/core, this package is dedicated to the legacy v1
+npm WARN bootstrap@4.5.2 requires a peer of popper.js@^1.16.1 but none is installed. You must install peer dependencies yourself.
+npm WARN confusion@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ jquery@3.3.1
++ popper.js@1.12.9
+added 2 packages from 3 contributors and audited 227 packages in 4.819s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 3 vulnerabilities (1 low, 2 moderate)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>npm audit fix
+npm WARN bootstrap@4.5.2 requires a peer of popper.js@^1.16.1 but none is installed. You must install peer dependencies yourself.
+npm WARN confusion@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.3 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ jquery@3.5.1
+updated 1 package in 4.126s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+fixed 2 of 3 vulnerabilities in 227 scanned packages
+  1 vulnerability required manual review and could not be updated
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>npm start
+
+> confusion@1.0.0 start C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion
+> npm run lite
+
+
+> confusion@1.0.0 lite C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion
+> lite-server
+
+Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+** browser-sync config **
+{
+  injectChanges: false,
+  files: [ './**/*.{html,htm,css,js}' ],
+  watchOptions: { ignored: 'node_modules' },
+  server: {
+    baseDir: './',
+    middleware: [ [Function (anonymous)], [Function (anonymous)] ]
+  }
+}
+[Browsersync] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.31.196:3000
+ ---------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ ---------------------------------------
+[Browsersync] Serving files from: ./
+[Browsersync] Watching files...
+20.09.24 18:37:00 200 GET /index.html
+20.09.24 18:37:03 404 GET /favicon.ico
+[Browsersync] Reloading Browsers...
+20.09.24 18:39:52 200 GET /index.html
+20.09.24 18:39:53 200 GET /node_modules/bootstrap/dist/css/bootstrap.min.css
+[Browsersync] Reloading Browsers...
+20.09.24 18:44:30 200 GET /index.html
+20.09.24 18:44:31 304 GET /node_modules/bootstrap/dist/css/bootstrap.min.css
+20.09.24 18:44:31 200 GET /node_modules/popper.js/dist/umd/popper.min.js
+20.09.24 18:44:31 200 GET /node_modules/jquery/dist/jquery.slim.min.js
+20.09.24 18:44:31 200 GET /node_modules/bootstrap/dist/js/bootstrap.min.js
+
+================================================================================================
+
+git cmd
+
+
+C:\Users\Dhaval>cd C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+        modified:   package-lock.json
+        modified:   package.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>git add .
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>git commit -m "intro. boostrap"
+[master b62ec42] intro. boostrap
+ 3 files changed, 32 insertions(+), 1 deletion(-)
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\Bootstrap4\conFusion>
+
+===============================================================================================================
+
+              --   Exercise: Getting Started with Bootstrap   --
+
+>>>   Setting up the Project Folder
+
+Go to a convenient folder location on your computer and download the Bootstrap4-starter.zip file using the link provided at the top of this page.
+Unzip the file to see a folder named Bootstrap4 and a sub-folder under it named conFusion created. Move to the conFusion folder.
+Open a cmd window/terminal and move to the conFusion folder.
+At the prompt type
+
+  npm install
+
+This will install the lite-server node module to your project.
+Next, initialize a Git repository in the project folder, and then set up a .gitignore file with the contents as shown below:
+
+  node_modules
+
+Now do a commit of your project folder to the Git repository with the message "Initial Setup". You will be doing a commit of your project at the end of each exercise so that you retain the completed files of each exercise.
+Set up an online Git repository and synchronize your project folder with the online repository.
+
+-----------------------------------------------------------------------------
+
+
+>> Downloading Bootstrap
+
+You will use npm to fetch the Bootstrap files for use within your project. Thereafter you need to install JQuery and Popper.js as shown below since Bootstrap 4 depends on these two. At the prompt, type the following to fetch Bootstrap files to your project folder:
+
+   npm install bootstrap@4.0.0 --save
+    npm install jquery@3.3.1 popper.js@1.12.9 --save
+
+This will fetch the Bootstrap files and store is in your node_modules folder in a bootstrap folder. The bootstrap->dist folder contains the precompiled Bootstrap CSS and JS files for use within your project.
+Open your project folder in your editor, and then open the index.html file in the conFusion folder. This is your starting web page for the project. We have already created the web page with some content to get you started. We will use Bootstrap to style this web page, and learn Bootstrap features, classes and components along the way.
+Start your lite-server by typing npm start at the prompt. The index.html file should now be loaded into your default browser.
+
+---------------------------------------------------------------------------------
+
+>>    Getting your Web page Bootstrap ready
+
+
+Open the index.html file in your favourite text editor. If you are using Visual Studio Code, Brackets, Sublime Text or similar editors, you can open the project folder in the editor and then view index.html.
+Insert the following code in the <head> of index.html file before the title.
+
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+
+This will include Bootstrap CSS into your web page. Note the subtle change in the fonts of the content of the web page. This is the Bootstrap typography effect coming into play. The default Bootstrap typography sets the font to Helvetica Neue and selects the appropriate font size based on the choice of the heading style and paragraph style for the content.
+At the bottom of the page, just before the end of the body tag, add the following code to include the JQuery library, popper.js library and Bootstrap's Javascript plugins. Bootstrap by default uses the JQuery Javascript library for its Javascript plugins. Hence the need to include JQuery library in the web page.
+
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+Now, do a Git commit with the message "Intro. to Bootstrap". You may push the commit to your online repository.
+
+--------------------------------------------------------------------------
+
+>>  Conclusion
+
+We have now understood how to set up a web project to use Bootstrap. In the next lecture, we will explore further on responsive design and Bootstrap's grid system.
+

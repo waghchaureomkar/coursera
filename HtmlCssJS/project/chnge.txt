@@ -1,0 +1,17 @@
+// write your code here
+  
+var img = new SimpleImage(200,200);
+print(img);
+for (var pixel of img.values()){
+    pixel.setGreen(0)
+    pixel.setRed(255)
+    pixel.setBlue(0)
+}
+print(img)
+for (var pixel of img.values()) {
+    if (pixel.getRed() > 250) {
+         pixel.setRed(0);
+         pixel.setGreen(255)
+    }
+}
+print(img)

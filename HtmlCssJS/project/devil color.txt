@@ -1,0 +1,15 @@
+// https://www.dukelearntoprogram.com//course1/example/index.php
+// write a code here
+  
+var img = new SimpleImage("duke_blue_devil.png");
+print(img);
+for (var pixel of img.values()) {
+  x = pixel.getX();
+  y = pixel.getY();
+  if (x > y) {
+    pixel.setRed(0);
+    pixel.setBlue(0);
+  }
+}
+
+print(img)

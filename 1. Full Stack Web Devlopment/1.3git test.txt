@@ -1,0 +1,191 @@
+
+            --     setting up git  in cmd  --
+
+git --version
+
+git config --global user.name "Omkar Waghchaure"
+
+git config --global user.email waghchaureomkar@gmail.com
+
+git config --list
+
+C:\Users\Dhaval>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+core.editor="C:\Users\Dhaval\AppData\Local\Programs\Microsoft VS Code\Code.exe" --wait
+user.name=Omkar Waghchaure
+user.email=waghchaureomkar@gmail.com
+
+
+==========================================================================================================================
+
+
+              --  git commands  --
+
+C:\Users\Dhaval>cd C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git init
+Initialized empty Git repository in C:/Users/Dhaval/Desktop/coursera/C1 boostrap/git test/.git/
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git add .
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git commit -m "first commit"
+[master (root-commit) 62b817e] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git log --oneline
+62b817e (HEAD -> master) first commit
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        templetes/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git add .
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+        new file:   templetes/test.html
+
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git commit -m "second commit"
+[master 72c3f38] second commit
+ 2 files changed, 18 insertions(+)
+ create mode 100644 templetes/test.html
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git log --oneline
+72c3f38 (HEAD -> master) second commit
+62b817e first commit
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git log
+commit 72c3f385e7d9875f22ba7a0d6511bd3d383130d3 (HEAD -> master)
+Author: Omkar Waghchaure <waghchaureomkar@gmail.com>
+Date:   Tue Sep 22 13:55:44 2020 +0530
+
+    second commit
+
+commit 62b817e89f666d070a3242d11137567f79c3ddbf
+Author: Omkar Waghchaure <waghchaureomkar@gmail.com>
+Date:   Tue Sep 22 13:46:13 2020 +0530
+
+    first commit
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   templetes/test.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git add .
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   templetes/test.html
+
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git commit -m "third commit"
+[master a2d9938] third commit
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git log --oneline
+a2d9938 (HEAD -> master) third commit
+72c3f38 second commit
+62b817e first commit
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git checkout 72c3f38 index.html
+Updated 0 paths from 021fa6c
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git reset HEAD index.html
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git checkout -- index.html
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+Online GitHub
+
+Microsoft Windows [Version 10.0.18363.1082]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Dhaval>cd C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git remote add origin https://github.com/waghchaureomkar/git-test.git
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test>git push -u origin master
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (11/11), 929 bytes | 71.00 KiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/waghchaureomkar/git-test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Dhaval\Desktop\coursera\C1 boostrap\git test> 
+
+git clone <repository URL>
